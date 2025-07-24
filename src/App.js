@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter>
       <Topbar/>
       <Routes>
-        <Route exact path = '/' element = {<Home/>} ></Route>
+        <Route exact path = '/portfolio-react' element = {<Home/>} ></Route>
         <Route exact path = '/projects' element = {<Projects/>} ></Route>
         <Route exact path = '/contact' element = {<Contact/>} ></Route>
       </Routes>
