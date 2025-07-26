@@ -10,7 +10,7 @@ const Contact = () => {
         <div className='social-platforms'>
           <a className='socialLink' href='https://www.linkedin.com/in/hammad-ali-30b455376?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ' target='_blank' rel="noopener noreferrer"><p><i className="fa-brands fa-linkedin"></i></p></a>
           <a className='socialLink' href='https://www.instagram.com/hammad__ll?igsh=c2dnMm00cWs3Ymtn ' target='_blank' rel="noopener noreferrer"><p><i className="fa-brands fa-instagram"></i></p></a>
-          <a className='socialLink' href='https://www.linkedin.com/in/hammad-ali-30b455376?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ' target='_blank' rel="noopener noreferrer"><p><i className="fa-brands fa-github"></i></p></a>
+          <a className='socialLink' href='https://github.com/HammadGH123' target='_blank' rel="noopener noreferrer"><p><i className="fa-brands fa-github"></i></p></a>
         </div>
       </div>
     </div>
