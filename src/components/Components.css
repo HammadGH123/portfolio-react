@@ -167,21 +167,21 @@ i:hover{
     top: 0;
     z-index: 999;
     align-items: center;
+    overflow: hidden;
 }
 
 .note p {
     margin: 0;
     white-space: nowrap; /* Prevent line breaks */
-    width: max-content; /* Allow the paragraph to expand */
     animation: Note-Slide 20s linear infinite;
 }
 
 
 @keyframes Note-Slide {
-    from {
+    0% {
         transform: translateX(100vw); /* Slide in from left to right */
     }
-    to {
+    100%{
         transform: translateX(-100%);
     }
 }
@@ -204,16 +204,16 @@ i:hover{
 }
 
 .p1 , .p3{
-    animation: slide-R 2s linear 1;
+    animation: slide-R 1.5s linear 1;
 }
 .p2{
-    animation: slide-L 2s linear 1;
+    animation: slide-L 1.5s linear 1;
 }
 
 @keyframes slide-R {
     from {
         opacity: 0;
-        transform: translateX(-200px); /* Slide in from left to right */
+        transform: translateX(-100px); /* Slide in from left to right */
     }
     to {
         opacity: 1;
@@ -223,7 +223,7 @@ i:hover{
 @keyframes slide-L {
     from {
         opacity: 0;
-        transform: translateX(200px); /* Slide in from right to left */
+        transform: translateX(100px); /* Slide in from right to left */
     }
     to {
         opacity: 1;
