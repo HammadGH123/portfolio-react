@@ -4,7 +4,7 @@ import Photocard from './Photocard'
 
 const Home = () => {
   return (
-    <div className='home'>
+    <div className='home' id='home'>
       <div className='home-child'>
       <Description/>
       <Photocard/>

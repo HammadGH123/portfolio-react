@@ -1,6 +1,5 @@
 import './App.css';
 import Topbar from './components/Navbar';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Projects from './components/Projects';
 import Home from './components/Home';
 import Contact from './components/Contact';
@@ -8,16 +7,20 @@ import Contact from './components/Contact';
 
 function App() {
 
-  document.body.style.backgroundColor = "#fff6d0"
+  document.body.style.backgroundColor = "black"
   return (
-      <BrowserRouter>
-      <Topbar/>
-      <Routes>
-        <Route exact path = '/' element = {<Home/>} ></Route>
-        <Route exact path = '/projects' element = {<Projects/>} ></Route>
-        <Route exact path = '/contact' element = {<Contact/>} ></Route>
-      </Routes>
-    </BrowserRouter>
+      <main>
+        <Topbar/>
+        <section>
+          <Home/>
+        </section>
+        <section>
+          <Projects/>
+        </section>
+        <section>
+          <Contact/>
+        </section>
+      </main>
   );
 }
 
